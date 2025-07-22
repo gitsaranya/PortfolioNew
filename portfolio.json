@@ -1,0 +1,153 @@
+{
+  "name": "SARANYA VEISU GOPALAN",
+  "title": "FULL STACK DEVELOPER",
+  "contact": {
+    "email": "saranyavnair2@gmail.com",
+    "location": "Toronto, Ontario",
+    "github": "https://github.com/gitsaranya",
+    "linkedin": "https://www.linkedin.com/in/saranya-v1"
+  },
+  "summary": [
+    "I'm a dedicated Full Stack Developer with 5 years of experience in building scalable and user-friendly web applications. Skilled in a wide range of languages and tools including HTML, CSS, JavaScript, React, ASP.NET Core, SQL, and more, I bring strong problem-solving abilities and a focus on delivering clean, efficient, and maintainable code. I value teamwork, adaptability, and clear communication, and I enjoy turning ideas into practical, well-built software.",
+    "Looking ahead, I aim to expand my impact by exploring AI integration in web development, contributing to smarter and more automated solutions. In the next 3-5 years, I see myself leading or collaborating on innovative projects that combine full stack development with modern technologies, while continuously learning and growing as a developer.",
+    "In the short term, my goal is to gain the necessary skills and experience to secure a meaningful developer role in Canada. I'm focused on strengthening my technical foundation while adapting to the local industry standards. Over the long term, I aspire to create meaningful, innovative projects that combine full stack development with emerging technologies like AI, while continuously learning and evolving with the industry."
+  ],
+"education": [
+  {
+    "degree": "Bachelor of Science in Information Technology | Mumbai University",
+    "courses": [
+      "CISCO Certified Network Associate (CCNA) in Routing Switching - Tiger's Forum (RST Forum)",
+      "Diploma in Web Design and Development - I-Tek Institute, Mumbai"
+    ]
+  }
+],
+  "skills": [
+    "Front End Web Development: HTML, CSS, Bootstrap, JavaScript, React.js, Angular.js",
+    "Back End & Scripting: .NET, Python, Node.js, PHP, JavaScript, Google Apps Script",
+    "Web Frameworks: ASP .NET Core MVC (C#), Laravel, CodeIgniter",
+    "Database: MySQL, PL-SQL, MS SQL Server, MongoDB",
+    "Mobile Development: Android native apps",
+    "Development Tools: Visual Studio, Git, Android Studio, Postman, Figma",
+    "Block-based Coding: Scratch, Thunkable, Tynker",
+    "Data Visualization Tools: GeoGebra, LabInApp, Excel, Tableau, Power BI",
+    "Testing: Manual Testing, Automation Testing (Selenium)",
+    "Cloud: Azure (App Services), Networking"
+  ],
+  "experience": [
+    {
+      "role": "Frontend Development",
+      "techStack": "HTML, CSS, JavaScript, React.js, Bootstrap",
+      "details": [
+        "Leveraged React.js and Bootstrap to build a dynamic, responsive payment system interface, with strong understanding of component states and lifecycles",
+        "Built a grammar editor tool with JavaScript to automate edits time and enhance content quality",
+        "Developed a product listing page with dynamic category filters using mock API data (static JSON)"
+      ]
+    },
+    {
+      "role": "Backend Development",
+      "techStack": "ASP.NET MVC, ASP.NET Web API, C#, SQL, MySQL",
+      "details": [
+        "Developed an Online Booklet Marketplace using ASP.NET MVC, allowing content developers to upload and sell educational booklets for children",
+        "Created RESTful APIs with ASP.NET Web API to facilitate smooth communication between front-end and back-end systems",
+        "Developed and optimized SQL scripts to manage database objects and improve query performance",
+        "Gained ETL process knowledge using MySQL for data extraction, transformation, and loading",
+        "Implemented CRUD operations in ASP.NET MVC to manage data-driven applications, ensuring seamless data management"
+      ]
+    },
+    {
+      "role": "Full Stack Development",
+      "techStack": "Angular, TypeScript, ASP.NET Core MVC, Node.js (Express), C#, Google Apps Script",
+      "details": [
+        "Automated student report card generation by transferring student data via ASP.NET Core MVC API to Google Sheets, enabling email distribution via Google Apps Script with minimal manual effort",
+        "Developed a progress-tracking system using ASP.NET MVC for chapters, subjects, and assignments, providing an interface for students and teachers to monitor progress",
+        "Built a Book Management System with Angular and TypeScript, for dynamic data interaction",
+        "Developed an animated lesson platform using ASP.NET Core MVC and C#, embedding LabInApp 3D simulations for interactive learning",
+        "Developed a recipe search engine using ASP.NET and C#, enabling users to input ingredients and receive recipe suggestions, enhancing user experience for cooking enthusiasts",
+        "Built full-stack task manager with Node.js (Express) and dynamic front-end; features CRUD, validation, error handling, responsive UI, sorting, and real-time API updates"
+      ]
+    },
+    {
+      "role": "Other Development Operations",
+      "techStack": "Azure App Services, Git, SQL Server Management Studio (SSMS), Jira, Selenium, Power BI",
+      "details": [
+        "Led cross-functional team of developers, UI/UX designers, QA analysts, and business stakeholders",
+        "Conducted code reviews and enforced best practices for .NET development",
+        "Deployed ASP.NET Core MVC apps using Visual Studio with Git and Azure App Services; managed databases using SQL Server Management Studio (SSMS)",
+        "Utilized Jira to manage SDLC activities, including task tracking, testing and documentation",
+        "Debugged applications and executed manual and automated Selenium tests to ensure performance, reliability and quality",
+        "Designed Power BI dashboards to visualize database relationships and drive insights"
+      ]
+    }
+  ],
+  "coverLetter": [
+    "Dear Hiring Manager,",
+    "I'm seeking an opportunity at your company where I can contribute my development skills and be part of meaningful tech projects. With over 5 years of experience in web and software development, I've built a strong foundation in both front-end and back-end technologies, including JavaScript, React, and ASP.NET Core.",
+    "Throughout my career, I've worked on real-world projects—building responsive interfaces, developing secure APIs, and deploying scalable applications. I've also led small teams, ensuring smooth collaboration from planning through deployment. I enjoy solving technical challenges and constantly look for ways to write cleaner, more efficient code. I'm quick to adapt, open to feedback, and passionate about learning, especially in areas like AI and cloud computing.",
+    "I'm excited about the opportunity to contribute to your team's success and bring a strong work ethic, curiosity, and problem-solving mindset. Thank you for considering my application. I look forward to the possibility of discussing how I can support your development goals."
+  ],
+  "projects": [
+    {
+      "name": "Book Management System",
+      "tech": "Angular, ASP.NET Web API, SQL Server",
+      "details": [
+        "Built a full-stack CRUD app with real-time data entry.",
+        "Integrated client-side validation and REST APIs."
+      ]
+    },
+    {
+      "name": "Animated Lesson Platform",
+      "tech": "ASP.NET Core MVC, JS, CSS",
+      "details": [
+        "Developed interactive animated lessons for K-12 students.",
+        "Enabled teachers to manage lesson content with admin UI."
+      ]
+    },
+    {
+      "name": "Report Card Generator",
+      "tech": "Google Apps Script, Google Sheets",
+      "details": [
+        "Automated PDF report cards, reducing manual effort by 70%.",
+        "Dynamically generated data-driven reports for students."
+      ]
+    }
+  ],
+"achievements": {
+  "situational": {
+    "title": "ACHIEVEMENTS",
+    "situation": "At a previous role, the manual creation of student report cards was time-consuming and error-prone, especially when dealing with multiple classes and subjects.",
+    "action": "I developed a system using ASP.NET Core MVC to send student data to Google Sheets via API, and automated email delivery using Google Apps Script. This eliminated the need for manual entry and distribution.",
+    "result": "Reduced report generation time by over 70%, minimized human error, and improved communication with parents."
+  },
+  "awards": {
+    "title": "Awards and Recognition",
+    "lines": [
+      "Received performance-related honours for 'Reach for the Stars' from Byju's.",
+      "Employee of the Month, March 2023"
+    ]
+  }
+},
+  "testimonials": [
+    "\"Saranya is a dedicated and skilled developer who consistently delivers high-quality work. Her ability to adapt to new technologies and her strong problem-solving skills make her a valuable asset to any team. I highly recommend her for any development role.\" - Former Manager",
+    "\"Saranya's attention to detail and commitment to excellence are evident in every project she undertakes. She has a knack for turning complex requirements into elegant solutions, and her collaborative spirit makes her a pleasure to work with.\" - Colleague"
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "role": "Senior Manager at ExampleTech",
+      "email": "jane.smith@example.com",
+      "phone": "+1 123-123-1234"
+    },
+    {
+      "name": "John Doe",
+      "role": "Lead Developer at EgSolutions",
+      "email": "john.doe@example.com",
+      "phone": "+1 123-123-1234"
+    },
+    {
+      "name": "Mary Johnson",
+      "role": "Project Manager at SoftWorks",
+      "email": "mary.johnson@example.com",
+      "phone": "+1 123-123-1234"
+    }
+  ]
+}

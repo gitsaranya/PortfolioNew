@@ -1,0 +1,320 @@
+/* body {
+  margin: 0;
+  font-family: Inconsolata;
+  padding-top: 60px;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #05004b;
+  color: white;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+section,
+h4 {
+  scroll-margin-top: 70px;
+}
+
+h4 {
+  color: #05004b;
+  margin-top: 40px;
+}
+
+ul.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.skills-list li {
+  display: grid;
+  grid-template-columns: 250px auto;
+  align-items: start;
+  margin-bottom: 8px;
+}
+
+ul.skills-list b {
+  font-weight: bold;
+  text-align: left;
+}
+
+
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+  }
+} */
+
+html {
+    scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  font-family: Inconsolata;
+  padding-top: 60px;
+  scroll-behavior: smooth;
+  background: #f8f8f8;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #05004b;
+  color: white;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Content wrapper */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Each section */
+section {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+h4 {
+  color: #05004b;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+ul.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.skills-list li {
+  display: grid;
+  grid-template-columns: 250px auto;
+  align-items: start;
+  margin-bottom: 8px;
+}
+
+ul.skills-list b {
+  font-weight: bold;
+  text-align: left;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #05004b;
+  letter-spacing: 1px;
+}
+
+.profile-header h2 {
+  font-size: 20px;
+  margin: 5px 0 15px;
+  color: #444;
+  font-weight: normal;
+}
+
+.profile-header hr {
+  width: 60px;
+  border: 2px solid #05004b;
+  margin: 0 auto;
+}
+
+.contact-line {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+  color: #333;
+}
+
+.contact-line a {
+  color: #05004b;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.contact-line a:hover {
+  text-decoration: underline;
+}
+
+#profileContainer {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  padding: 0 30px;
+  text-align: justify;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
+
+#profileContainer h1, #profileContainer h2 {
+  text-align: center;
+}
+
+/* Cover Letter Box */
+#coverletter p {
+  background: #e0f0ff;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Testimonials Cards */
+#testimonial p {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Smaller headers inside experience/projects */
+h5 {
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #coverletter p, #testimonial p {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .nav-container {
+    padding: 10px 15px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: nowrap;       
+    overflow-x: auto;        
+    -webkit-overflow-scrolling: touch; 
+    gap: 15px;
+  }
+
+  .nav-links li a {
+    font-size: 14px;       
+    white-space: nowrap;   
+    padding: 5px 10px;
+  }
+
+  /* Optional: hide scrollbar (Webkit) */
+  .nav-links::-webkit-scrollbar {
+    height: 6px;
+  }
+  .nav-links::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  .nav-links::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
