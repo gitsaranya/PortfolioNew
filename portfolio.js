@@ -1,10 +1,10 @@
 fetch('portfolio.json')
-    .then(res => res.json())
-    .then(data => {
-        const profileContainer = document.getElementById('profileContainer');
-        if (!profileContainer) return;
+  .then(res => res.json())
+  .then(data => {
+    const profileContainer = document.getElementById('profileContainer');
+    if (!profileContainer) return;
 
-        let html = `
+    let html = `
     <div class="profile-header">
       <h1>${data.name}</h1>
       <h2>${data.title}</h2>
@@ -111,5 +111,27 @@ fetch('portfolio.json')
     </section>
     `;
 
-        profileContainer.innerHTML = html;
-    });
+    profileContainer.innerHTML = html;
+  });
+
+window.addEventListener('DOMContentLoaded', () => {
+  const themeBtn = document.getElementById('theme-toggle');
+  if (!themeBtn) return;
+
+  let darkMode = localStorage.getItem('theme')
+    ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+  let isDark = darkMode === 'dark';
+  setTheme(isDark);
+
+  themeBtn.addEventListener('click', () => {
+    isDark = !isDark;
+    setTheme(isDark);
+  });
+
+  function setTheme(dark) {
+    document.body.classList.toggle('dark-theme', dark);
+    themeBtn.textContent = dark ? '🤍' : '🖤';
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  }
+});
